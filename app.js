@@ -9,6 +9,8 @@ form.addEventListener('submit',(e)=>{
   checkinputs();
 });
 
+// Function to check inputs
+
 function checkinputs(){
   const usernameValue=username.value.trim();
   const emailValue=email.value.trim();
