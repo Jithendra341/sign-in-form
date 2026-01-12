@@ -4,10 +4,13 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
+// Listner to submit button
 form.addEventListener('submit',(e)=>{
   e.preventDefault();
   checkinputs();
 });
+
+// Function to check inputs
 
 function checkinputs(){
   const usernameValue=username.value.trim();
